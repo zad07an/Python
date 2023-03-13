@@ -237,7 +237,7 @@
 
 # # # ==================== Getting flatten list with sum of numbers from 2d list ====================
 
-# numbers_list = [6,[ 8, 35, 2], [8],21,[5, 6, -5 , -6],14, [1, 3, -9, 0, -1]]
+# numbers_list = [6,[8, 35, 2], [8],21,[5, 6, -5 , -6],14, [1, 3, -9, 0, -1]]
 
 # def sum_of_2d_list(arr):
 #   new_arr = []
@@ -265,3 +265,28 @@
 #   return sentence      
   
 # print(complete_the_text(words, sentence))
+
+
+# ==================== Sort function ====================
+
+# numbers_list = [3,1,25,68,41,72,55,11]
+
+# def sort(arr):
+#   for i in range(1, len(arr)):
+#     for j in range(len(arr)):
+#       if arr[j] > arr[i]:
+#         [arr[i], arr[j]] = [arr[j], arr[i]] 
+#   return arr
+
+# print(sort(numbers_list))
+
+# ==================== Function that makes pattern ====================
+
+# def pattern(rows, char, step):
+#   for i in range(1, rows + 1, step):
+#     print(char * i)
+#   for j in range(rows - step, 0, -step):
+#     print(char * j)
+  
+# print(pattern(15, "8", 2))
+
